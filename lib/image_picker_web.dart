@@ -2,7 +2,6 @@ library image_picker_web;
 
 import 'dart:async';
 import 'dart:convert';
-import 'dart:html' as html;
 
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
@@ -11,6 +10,7 @@ import 'package:image_picker_web/src/extensions/file_extensions.dart'
     show FileModifier;
 import 'package:image_picker_web/src/models/media_info.dart';
 import 'package:image_picker_web/src/web_image_picker.dart';
+import 'package:universal_html/html.dart' as html;
 
 export 'src/models/media_info.dart';
 
